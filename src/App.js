@@ -7,6 +7,7 @@ import { getQuery3 } from './api/firebase';
 import { getQuery4 } from './api/firebase';
 import myImage from './group1.png';
 import profilePage from './profile.png';
+import cardPage from './click-card.png';
 
 
 function App() {
@@ -71,7 +72,9 @@ function App() {
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
+                        <a href={cardPage}>
                             <img src="https://villasonrio.com/wp-content/uploads/DJI_0101-HDR.jpeg" />
+                            </a>
                         </div>
                         <div class="name-address-price-wrapper">
                             <div class="name-address-wrapper">
