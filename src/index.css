@@ -57,7 +57,8 @@ body{
   
   
   .name-address-price-wrapper{
-  padding-top: 20px;
+  padding: 20px;
+  width: calc(100% - 40px);
   display: flex;
   flex-direction: row;
   }
@@ -84,19 +85,20 @@ body{
   .name{
   font-family: 'AcehSoft-SemiBold';
   font-size: 36px;
-  padding-right: 300px;
-  padding-left: 20px;
+  margin-right: auto;
+  margin-left: 0px;
   }
   
   
   .address{
   font-family: 'AcehSoft-Regular';
   font-size: 25px;
-  padding-left: 20px;
   }
   
   
   .price{
+  margin-right: 0;
+  margin-left: auto;
   padding-top: 10px;
   font-family: 'AcehSoft-Regular';
   }

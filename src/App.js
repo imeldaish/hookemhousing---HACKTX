@@ -70,23 +70,22 @@ function App() {
                                 <h1 class="name" id="name">{apartmentData && (apartmentData.name ?? "N/A")}</h1>
                                 <p class="address" id="address">{apartmentData && (apartmentData.address ?? "N/A")}</p>
                             </div>
-                            <p class="price" id="priceLow">${apartmentData && (apartmentData.priceLow ?? 0)}</p>
-                            <p class="price" id="priceHigh">-${apartmentData && (apartmentData.priceHigh ?? 0)}</p>
+                            <p class="price" id="priceLow">${apartmentData && (apartmentData.priceLow ?? 0)} -${apartmentData && (apartmentData.priceHigh ?? 0)}</p>
+                            {/* <p class="price" id="priceHigh">-${apartmentData && (apartmentData.priceHigh ?? 0)}</p> */}
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="https://villasonrio.com/wp-content/uploads/DJI_0101-HDR.jpeg" />
+                            <img src="https://s3.amazonaws.com/rcp-prod-uploads/property_images/webp/2020-11/df60b84b47d5713021f6cb26e2cbbe4d9ad83890TE.jpg " />
                         </div>
                         <div class="name-address-price-wrapper">
                             <div class="name-address-wrapper">
                                 <h1 class="name" id="name2">{apartmentData2 && (apartmentData2.name ?? "N/A")}</h1>
                                 <p class="address" id="address2">{apartmentData2 && (apartmentData2.address ?? "N/A")}</p>
                             </div>
-                            <p class="price" id="priceLow2">${apartmentData2 && (apartmentData2.priceLow ?? 0)}</p>
-                            <p class="price" id="priceHigh2">-${apartmentData2 && (apartmentData2.priceHigh ?? 0)}</p>
+                            <p class="price" id="priceLow">${apartmentData2 && (apartmentData2.priceLow ?? 0)} -${apartmentData2 && (apartmentData2.priceHigh ?? 0)}</p>
                         </div>
                     </div>
                 </div>
@@ -94,30 +93,28 @@ function App() {
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="https://villasonrio.com/wp-content/uploads/DJI_0101-HDR.jpeg" />
+                            <img src="https://picturescdn.alndata.com/?pid=ca2f3d60-486e-4763-bc83-64840822b7c1&w=720&qual=60&fmt=webp" />
                         </div>
                         <div class="name-address-price-wrapper">
                             <div class="name-address-wrapper">
                                 <h1 class="name" id="name3">{apartmentData3 && (apartmentData3.name ?? "N/A")}</h1>
                                 <p class="address" id="address3">{apartmentData3 && (apartmentData3.address ?? "N/A")}</p>
                             </div>
-                            <p class="price" id="priceLow3">${apartmentData3 && (apartmentData3.priceLow ?? 0)}</p>
-                            <p class="price" id="priceHigh3">-${apartmentData3 && (apartmentData3.priceHigh ?? 0)}</p>
+                            <p class="price" id="priceLow">${apartmentData3 && (apartmentData3.priceLow ?? 0)} -${apartmentData3 && (apartmentData3.priceHigh ?? 0)}</p>
                         </div>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <div class="card-img">
-                            <img src="https://villasonrio.com/wp-content/uploads/DJI_0101-HDR.jpeg" />
+                            <img src="https://ion-austin.com/wp-content/uploads/sites/6/2020/02/HomepageExterior.jpg" />
                         </div>
                         <div class="name-address-price-wrapper">
                             <div class="name-address-wrapper">
                                 <h1 class="name" id="name4">{apartmentData4 && (apartmentData4.name ?? "N/A")}</h1>
                                 <p class="address" id="address4">{apartmentData4 && (apartmentData4.address ?? "N/A")}</p>
                             </div>
-                            <p class="price" id="priceLow4">${apartmentData4 && (apartmentData4.priceLow ?? 0)}</p>
-                            <p class="price" id="priceHigh4">-${apartmentData4 && (apartmentData4.priceHigh ?? 0)}</p>
+                            <p class="price" id="priceLow">${apartmentData4 && (apartmentData4.priceLow ?? 0)} -${apartmentData4 && (apartmentData4.priceHigh ?? 0)}</p>
                         </div>
                     </div>
                 </div>
