@@ -150,4 +150,10 @@ body{
   padding-right: 20px;
   color: #BF5700;
   }
+
+  #profile-img{
+    padding-left: 450px;
+  width: 72px;
+  height: 72px;
+  }
   
