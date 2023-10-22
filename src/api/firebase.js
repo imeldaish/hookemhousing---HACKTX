@@ -31,6 +31,63 @@ if (querySnapshot.size === 1) {
 } else {
   console.log("Document not found or there are multiple matching documents.");
 }
+ return undefined;
+}
+
+export async function getQuery2() {
+  const querySnapshot = await getDocs(query(apartmentsCollection, where('Name', '==', 'The Block on 28th')));
+
+if (querySnapshot.size === 1) {
+// Assuming there is only one matching document
+const doc = querySnapshot.docs[0].data();
+
+// Access the data you need
+const name = doc.Name;
+const address = doc.Address;
+const priceLow = doc['Price Low'];
+const priceHigh = doc['Price High'];
+return { name, address, priceLow, priceHigh}
+} else {
+console.log("Document not found or there are multiple matching documents.");
+}
+return undefined
+}
+
+export async function getQuery3() {
+  const querySnapshot = await getDocs(query(apartmentsCollection, where('Name', '==', 'Legacy on Rio')));
+
+if (querySnapshot.size === 1) {
+// Assuming there is only one matching document
+const doc = querySnapshot.docs[0].data();
+
+// Access the data you need
+const name = doc.Name;
+const address = doc.Address;
+const priceLow = doc['Price Low'];
+const priceHigh = doc['Price High'];
+return { name, address, priceLow, priceHigh}
+} else {
+console.log("Document not found or there are multiple matching documents.");
+}
+return undefined
+}
+
+export async function getQuery4() {
+  const querySnapshot = await getDocs(query(apartmentsCollection, where('Name', '==', 'Ion Austin')));
+
+if (querySnapshot.size === 1) {
+// Assuming there is only one matching document
+const doc = querySnapshot.docs[0].data();
+
+// Access the data you need
+const name = doc.Name;
+const address = doc.Address;
+const priceLow = doc['Price Low'];
+const priceHigh = doc['Price High'];
+return { name, address, priceLow, priceHigh}
+} else {
+console.log("Document not found or there are multiple matching documents.");
+}
 return undefined
 }
 
