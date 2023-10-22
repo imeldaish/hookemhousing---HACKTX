@@ -12,7 +12,7 @@ const firebaseConfig = {
 
 const db = getDatabase();
 const app = initializeApp(firebaseConfig);
-const apartmentRef = ref(db, 'Apartments/Villas on Rio');
+//const apartmentRef = ref(db, 'Apartments/Villas on Rio');
 
 const apartmentsCollection = collection(db, 'Apartments');
 
@@ -44,22 +44,3 @@ if (querySnapshot.size === 1) {
 }
 }
 getQuery()
-// Create a query to find the specific document by its ID
-
-
-// // init firebase
-// initializeApp(firebaseConfig)
-
-// // init services
-// const db = getFirestore()
-
-// // collection ref
-// const colRef = collection(db, 'Apartments')
-
-// // get collection data
-// getDocs(colRef)
-//     .then((snapshot) => {
-//         console.log(snapshot.docs)
-// })
-
-

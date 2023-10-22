@@ -26,9 +26,12 @@ function App() {
             </div>
         </div>
         <div class="card">
-            <img src="" alt=""/>
+            <img src="" alt="" />
             <div class="card-content">
-                <h3>Legacy on Rio</h3>
+                <h2 id="name">{apartmentData && (apartmentData.name ?? "N/A")}</h2>
+                <p id="address">{apartmentData && (apartmentData.address ?? "N/A")}</p>
+                <p id="priceLow">Price Low: ${apartmentData && (apartmentData.priceLow ?? 0)}</p>
+                <p id="priceHigh">Price High: ${apartmentData && (apartmentData.priceHigh ?? 0)}</p>
             </div>
         </div>
         <div class="card">
